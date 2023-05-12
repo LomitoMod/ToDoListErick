@@ -1,8 +1,8 @@
 h1{
     text-align: center;
     font-size: 35px;
-    color: red;
-    margin-top: 200px;
+    color: white;
+    margin-top: 100px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -11,25 +11,37 @@ body{
     background-size: cover;
 }
 
-div.container{
+.container{
     margin: auto;
     display: flex;
     flex-direction:column;
-    justify-content: center;
     align-items: center;
-    background-color: rgba(165, 42, 42, 0.5);
-    width: 400px;
-    height: 350px;
-    text-align: center;
+    background-color: rgba(250, 152, 6, 0.87);
+    width: 650px;
+    height: auto;
     border-radius: 5px;
+}
 
+.cajainput{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+
+.cajalista{
+    margin: 10px;
+    text-align: left;
+    width: 600px;
+    height: auto;
+    border-radius: 5px;
+    background-color: rgba(165, 42, 42, 0.5);
 }
 
 .Lista {
     font-size: 2rem;
-    color: blue;
-    list-style:none;
-
+    color: black;
+    list-style:decimal;
 }
 
 #pushmeboton{
@@ -43,6 +55,6 @@ div.container{
 
 #inputpushme{
     border-radius: 5px;
-    width: 250px;
+    width: 450px;
     height: 25px;
 }
