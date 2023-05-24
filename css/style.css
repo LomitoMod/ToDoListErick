@@ -44,6 +44,15 @@ body{
     list-style:decimal;
 }
 
+.Lista button{
+    color: white;
+    font-size: 20px;
+    background-color: brown;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
 #pushmeboton{
     color: white;
     font-size: 20px;
